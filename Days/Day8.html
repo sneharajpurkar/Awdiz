@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://kit.fontawesome.com/d4fa596027.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Flipkart</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: Roboto, Arial, sans-serif;
+        }
+
+        #navbar {
+            background-color: #2874f0;
+            width: 100%;
+            height: 57px;
+            color: white;
+            display: flex;
+            justify-content: space-evenly;
+            
+            /* border: 1px solid red; */
+        }
+
+        #navbar>div {
+            display: flex;
+        
+            /* border: 1px solid red; */
+        }
+
+        #logodiv {
+            margin-right: 15px;
+            /* border: 1px solid red; */
+        }
+
+        #logodiv>div:nth-child(1) {
+            margin-top: 5px;
+        }
+
+        #logodiv>div:nth-child(1)>a {
+            font-size: 22px;
+            font-weight: 800;
+        }
+
+        #logodiv>div:nth-child(2)>a {
+            font-size: 12px;
+        }
+
+        #logodiv>div:nth-child(2)>a>img {
+            width: 10px;
+            height: 10px;
+        }
+
+        #searchfield {
+            background-color: white;
+            height: 37px;
+            width: 600px;
+            /* border: 1px solid red; */
+        }
+
+        #searchfield > input {
+            border: none;
+            outline: none;
+            height: 100%;
+            width: 90%;
+            margin-left: 3%;
+            color: #b5b5b5;
+            font-size: 14px;
+
+        }
+
+        #searchfield>i {
+            color: #2874f0;
+        }
+       
+        #navbar>div:nth-child(1)>div:nth-child(2) {
+            margin-top: 10px;
+        }
+        #login{
+            background-color: white;
+            color: #2874f0;
+            height: 31px;
+            width: 120px;
+            border: none;
+            margin-top: 12.5px;
+            margin-left: 50px;
+            font-family: Arial,sans-serif;
+            font-size: 16px;
+        }
+        #rightside{
+            display: flex;
+            width: 400px;
+            justify-content: space-evenly;
+            font-weight: 500;
+            cursor: pointer;
+            font-family: Arial,sans-serif;
+            font-size: 16px;
+            
+            /* border: 1px solid red; */
+        }
+        #rightside > div{
+            height: 37px;
+            margin-top: 10px;
+            /* border: 1px solid red; */
+        }
+        #rightside > div > p{
+            /* border: 1px solid red; */
+            margin-top: 7px;
+        }
+        #rightside > div:nth-child(2) > i,span{
+            margin-top: 10px;
+        }
+        #rightside > div:nth-child(3) > i,span{
+            margin-top: 10px;
+        }
+        #rightside > div:nth-child(4) > i,span{
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="navbar">
+        <div>
+            <div id="logodiv">
+                <div>
+                    <a><i>Flipkart</i></a>
+                </div>
+                <div>
+                    <a>Explore <span style="color: yellow;">Plus</span>
+                        <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/plus_aef861.png
+                        " alt="symbol" />
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div id="searchfield">
+                    <input type="text" placeholder="Search for products, brands and more" />
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                   
+                </div>
+                
+            </div>
+            <button id="login">Login</button>
+        </div>
+        <div id="rightside">
+            
+            <div><p>Become a Seller</p></div>
+            <div>
+                <span>More</span>
+                <i class="fa-solid fa-angle-down fa-s"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span>Cart</span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

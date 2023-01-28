@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://kit.fontawesome.com/d4fa596027.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snapdeal</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        #navbar {
+            height: 30px;
+            width: 100%;
+            background-color: #c6003d;
+            justify-content: space-around;
+            display: flex;
+            color: #f6d9e2;
+        }
+
+        #leftside {
+            margin-top: 7px;
+            font-size: 14px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #rightside {
+            display: flex;
+            padding: 8px 6px;
+            font-size: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+
+            cursor: pointer;
+        }
+
+        #rightside>div:nth-child(1) {
+            width: 120px;
+        }
+
+        #rightside>div:nth-child(2) {
+            width: 70px;
+        }
+
+        #rightside>div:nth-child(3) {
+            width: 80px;
+        }
+
+        #rightside>div:nth-child(4) {
+            width: 120px;
+        }
+
+        .navbar2 {
+            background-color: #e40046;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 0px;
+        }
+        .logo{
+            margin-right: 100px;
+        }
+        .search {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+            width: 500px;
+            height: 20px;
+            margin: 0px 15px;
+            border-radius: 2px;
+        }
+
+        .search input {
+            width: 400px;
+            border: none;
+            outline: none;
+            font: 14px;
+            height: 30px;
+        }
+
+        .icon {
+            padding: 0%;
+            margin: 0%;
+            background-color: black;
+            color: white;
+            border: none;
+            font-size: 16px;
+            height: 30px;
+            width: 119px;
+        }
+
+        .loginbtn {
+            padding: 7px 40px;
+            font-size: 16px;
+            font-weight: 550;
+            border: none;
+            background-color: #e40046;
+            color: white;
+            
+        }
+
+        .nav1 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0px;
+            background-color: #c7003d;
+            height: 20px;
+            padding-right: 40px;
+        }
+
+        .div1 {
+            color: white;
+            margin-left: 60px;
+        }
+
+        .div2 {
+            justify-content: space-between;
+        }
+
+        .button {
+            background-color: #c7003d;
+            border: none;
+            color: white;
+            margin: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="navbar">
+        <div id="leftside">
+            <div><a>Brand Waali Quality, Bazaar Waali Deal!</a></div>
+        </div>
+        <div id="rightside">
+            <div>
+                <p>Impact@Snapdeal</p>
+            </div>
+            <div>
+                <p>Gift Cards</p>
+            </div>
+            <div>
+                <p>Help Center</p>
+            </div>
+            <div>
+                <p>Sell On Snapdeal</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <span>Download App</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="navbar2">
+        <div class="logo">
+            <img src="https://i3.sdlcdn.com/img/snapdeal/darwin/logo/sdLatestLogo.svg">
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Search for Products, Brands and more">
+            <button class="icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                search
+            </button>
+        </div>
+        <button class="loginbtn">Cart
+            <i class="fa-solid fa-cart-shopping"></i>
+        </button>
+        <button class="loginbtn"> Sign In
+        </button>
+        <button class="loginbtn">
+            <i class="fa-solid fa-circle-user"></i>
+        </button>
+    </div>
+</body>
+
+</html>

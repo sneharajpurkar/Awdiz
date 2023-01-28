@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <p>flex-grow:</p>
+    <div style="display: flex; width: 100%;border: 1px solid blue;" >
+       <div style="border: 1px solid green; flex-grow: 1; ">1</div>
+       <div style="border: 1px solid green; flex-grow: 3; ">2</div>
+       <div style="border: 1px solid green; flex-grow: 3; ">3</div>
+    </div>
+     <p>flex-wrap:wrap:</p>
+    <div style="display: flex; flex-wrap: wrap; width: 100%; border: 1px solid red;">
+      <div style="border: 1px solid yellow; width: 30%;">1</div>
+      <div style="border: 1px solid yellow;  width: 30%;">2</div>
+      <div style="border: 1px solid yellow;  width: 30%;">3</div>
+      <div style="border: 1px solid yellow;  width: 30%;">4</div>
+      <div style="border: 1px solid yellow;  width: 30%;">5</div> 
+    </div>
+    <p>flex-wrap:nowrap:</p>
+    <div style="display: flex; flex-wrap:nowrap; width: 100%; border: 1px solid goldenrod;">
+        <div style="border: 1px solid brown; width: 30%;">1</div>
+        <div style="border: 1px solid brown;  width: 30%;">2</div>
+        <div style="border: 1px solid brown;  width: 30%;">3</div>
+        <div style="border: 1px solid brown;  width: 30%;">4</div>
+        <div style="border: 1px solid brown;  width: 30%;">5</div> 
+      </div>
+      <p>flex-wrap:wrap-reverse:</p>
+    <div style="display: flex; flex-wrap:wrap-reverse; width: 100%; border: 1px solid green;">
+        <div style="border: 1px solid black;  width: 30%;">1</div>
+        <div style="border: 1px solid black;  width: 30%;">2</div>
+        <div style="border: 1px solid black;  width: 30%;">3</div>
+        <div style="border: 1px solid black;  width: 30%;">4</div>
+        <div style="border: 1px solid black;  width: 30%;">5</div> 
+      </div>
+      <p>flex-basis:</p>
+      <div style="display: flex; width: 100%;border: 1px solid rgb(43, 18, 35);" >
+         <div style="border: 1px solid gray; flex-basis: 300px; ">1</div>
+         <div style="border: 1px solid gray; flex-basis: 150px; ">2</div>
+         <div style="border: 1px solid gray; flex-basis: 200px; ">3</div>
+      </div>
+      <p>flex-shrink:</p>
+      <div style="display: flex;  width: 100%; border: 1px solid brown">
+        <div style="border: 1px solid rgb(235, 166, 166);  width: 30%;">1</div>
+        <div style="border: 1px solid rgb(235, 166, 166);  width: 30%; flex-shrink: 30;">2</div>
+        <div style="border: 1px solid rgb(235, 166, 166);  width: 30%;">3</div>
+        <div style="border: 1px solid rgb(235, 166, 166);  width: 30%; flex-shrink: 30;">4</div>
+      </div>
+      <p>flex-flow</p>
+      <p>flex-flow: row no wrap</p>
+      <div style="display: flex; flex-flow: row nowrap; width: 100%; border: 1px solid black;">
+      <div style="border: 1px solid yellow; width: 30%;">1</div>
+      <div style="border: 1px solid yellow;  width: 30%;">2</div>
+      <div style="border: 1px solid yellow;  width: 30%;">3</div>
+      <div style="border: 1px solid yellow;  width: 30%;">4</div>
+      <div style="border: 1px solid yellow;  width: 30%;">5</div> 
+    </div>
+    <p>flex-flow: row reverse no wrap</p>
+    <div style="display: flex; flex-flow: row-reverse nowrap; width: 100%; border: 1px solid black;">
+    <div style="border: 1px solid yellow; width: 30%;">1</div>
+    <div style="border: 1px solid yellow;  width: 30%;">2</div>
+    <div style="border: 1px solid yellow;  width: 30%;">3</div>
+    <div style="border: 1px solid yellow;  width: 30%;">4</div>
+    <div style="border: 1px solid yellow;  width: 30%;">5</div> 
+  </div>
+  <p>flex-flow: column no wrap</p>
+    <div style="display: flex; flex-flow: column nowrap; width: 100%; border: 1px solid black;">
+    <div style="border: 1px solid yellow; width: 30%;">1</div>
+    <div style="border: 1px solid yellow;  width: 30%;">2</div>
+    <div style="border: 1px solid yellow;  width: 30%;">3</div>
+    <div style="border: 1px solid yellow;  width: 30%;">4</div>
+    <div style="border: 1px solid yellow;  width: 30%;">5</div> 
+  </div>
+  <p>flex-flow: column no wrap</p>
+    <div style="display: flex; flex-flow: column nowrap; width: 100%; border: 1px solid black;">
+    <div style="border: 1px solid yellow; width: 30%;">1</div>
+    <div style="border: 1px solid yellow;  width: 30%;">2</div>
+    <div style="border: 1px solid yellow;  width: 30%;">3</div>
+    <div style="border: 1px solid yellow;  width: 30%;">4</div>
+    <div style="border: 1px solid yellow;  width: 30%;">5</div> 
+  </div>
+  <p>flex-flow: column  reverse no wrap</p>
+    <div style="display: flex; flex-flow: column-reverse nowrap; width: 100%; border: 1px solid black;">
+    <div style="border: 1px solid yellow; width: 30%;">1</div>
+    <div style="border: 1px solid yellow;  width: 30%;">2</div>
+    <div style="border: 1px solid yellow;  width: 30%;">3</div>
+    <div style="border: 1px solid yellow;  width: 30%;">4</div>
+    <div style="border: 1px solid yellow;  width: 30%;">5</div> 
+  </div>
+  <p>flex-flow: row wrap</p>
+    <div style="display: flex; flex-flow:row wrap; width: 100%; border: 1px solid black;">
+    <div style="border: 1px solid yellow; width: 30%;">1</div>
+    <div style="border: 1px solid yellow;  width: 30%;">2</div>
+    <div style="border: 1px solid yellow;  width: 30%;">3</div>
+    <div style="border: 1px solid yellow;  width: 30%;">4</div>
+    <div style="border: 1px solid yellow;  width: 30%;">5</div> 
+  </div>
+  <p>flex-flow: column wrap</p>
+    <div style="display: flex; flex-flow:column wrap; width: 100%; border: 1px solid black;">
+    <div style="border: 1px solid yellow; width: 30%;">1</div>
+    <div style="border: 1px solid yellow;  width: 30%;">2</div>
+    <div style="border: 1px solid yellow;  width: 30%;">3</div>
+    <div style="border: 1px solid yellow;  width: 30%;">4</div>
+    <div style="border: 1px solid yellow;  width: 30%;">5</div> 
+  </div>
+
+  flex-flow - it defines the combination of flow direction and flow wrap
+  flex-grow - it defines set the 
+  flex-basis
+  flex-shrink
+  flex-wrap
+  flex-direction
+
+
+</body>
+</html>
